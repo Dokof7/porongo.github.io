@@ -1,0 +1,1076 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Porongo - Servicio Turistico</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary fw-bold mb-0">Poro<span class="text-dark">ngo</span> </h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lugares tusticos</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="sitios-naturales.html" class="dropdown-item">Sitios Naturales</a>
+                                    <a href="obras_representativas.html" class="dropdown-item">Obras Representativas</a>
+                                    <a href="etnografía_folklore.html" class="dropdown-item">Etnografía Folklore</a>
+                                    <a href="atractivos_técnicos.html" class="dropdown-item">Atractivos Técnicos</a>
+                                    <a href="eventos_culturales.html" class="dropdown-item">Eventos Culturales</a>
+
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contactanos</a>
+                        </div>
+                        
+                        <a href="" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">
+                        <i class="bi bi-whatsapp"></i>Esscribenos ahora </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Te invito a</small>
+                        <h1 class="display-1 mb-4 animated bounceInDown"><span class="text-primary">Descubre </span>Porongo</h1>
+                        <p class="animated bounceInLeft mt-4" style="font-size: 1.2rem; color: #444;">
+  📸 Aventura y cultura.<br>
+  <strong style="color: #cc6600;">Ven ahora a tu aventura inolvidable en Porongo!</strong>
+</p>
+
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <img src="img/hero.png" class="img-fluid rounded animated zoomIn" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Satrt -->
+        <div class="container-fluid py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <img src="img/about.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">SOBRE NOSOTROS</small>
+                        <h1 class="display-5 mb-4">Confiado por más de 200Mil visitantes satisfechos
+
+</h1>
+                        <p class="mb-4">Porongo es un destino turístico lleno de encanto natural, historia viva y tradiciones culturales que perduran. Ubicado a pocos minutos de Santa Cruz de la Sierra, ofrece una conexión única con la naturaleza, la cultura y la hospitalidad de su gente.</p>
+                        <div class="row g-4 text-dark mb-5">
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Caminatas en cascadas y ríos naturales
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Visitas a obras históricas y patrimoniales
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i>Danzas y música folklórica tradicional
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2"></i> Gastronomía local y ferias culturales
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        <!-- Service Start -->
+        <div class="container-fluid service py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Vive Porongo a través de sus atractivos</small>
+                    <h1 class="display-5 mb-5">Explora nuestras experiencias turísticas</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-tree fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Sitios Naturales</h4>
+                                    <p class="mb-4">Explora cascadas, ríos y paisajes únicos como Espejillos y el Urubó.</p>
+                                    <a href="sitios-naturales.html" class="btn btn-primary px-4 py-2 rounded-pill">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-landmark fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Obras Representativas</h4>
+                                    <p class="mb-4">Conoce la Parroquia San Juan Bautista, La Noria y otros íconos.</p></p>
+                                    <a href="obras_representativas.html" class="btn btn-primary px-4 py-2 rounded-pill">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp"  data-wow-delay="0.5s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-theater-masks fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Etnografía y Folklore</h4>
+                                    <p class="mb-4">Descubre la danza de los turcos y la música tradicional de Porongo.</p>
+                                    <a href="etnografía_folklore.html" class="btn btn-primary px-4 py-2 rounded-pill">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp"  data-wow-delay="0.1s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-binoculars fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Atractivos Técnicos</h4>
+                                    <p class="mb-4">Visita el Bio Centro Guembé y los puentes que conectan Porongo.</p>
+                                    <a href="atractivos_técnicos.html" class="btn btn-primary px-4 py-2 rounded-pill">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp"  data-wow-delay="0.3s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-calendar-day fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Eventos Culturales</h4>
+                                    <p class="mb-4">Vive la Fiesta de San Juan, el Carnaval y la Feria del Achachairú.</p>
+                                    <a href="eventos_culturales.html" class="btn btn-primary px-4 py-2 rounded-pill">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp"  data-wow-delay="0.5s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-utensils fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Gastronomía Local</h4>
+                                    <p class="mb-4">Disfruta de sabores tradicionales en ferias y festividades.</p>
+                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Fact Start-->
+        <div class="container-fluid faqt py-6">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7">
+                       <div class="row g-4">
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.3s">
+                                <div class="faqt-item bg-primary rounded p-4 text-center">
+                                    <i class="fas fa-map-marked-alt fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold" data-toggle="counter-up">12</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Atractivos Naturales</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.5s">
+                                <div class="faqt-item bg-primary rounded p-4 text-center">
+                                    <i class="fas fa-users fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold" data-toggle="counter-up">1000</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Visitantes Felices</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.7s">
+                                <div class="faqt-item bg-primary rounded p-4 text-center">
+                                    <i class="fas fa-theater-masks fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold" data-toggle="counter-up">5</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Eventos Tradicionales</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="video">
+                           <!-- Botón que abre el video -->
+<button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/kutjdS-mB3Y?si=_MJWBUpBYqZIhBiA" data-bs-target="#videoModal">
+  <span></span>
+</button>
+
+<!-- Modal del video -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9">
+          <iframe id="video" class="embed-responsive-item" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+
+        
+
+
+        <!-- Events Start -->
+        <div class="container-fluid event py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Lugares Atractivos</small>
+                    <h1 class="display-5 mb-5">Galería de Lugares Especiales</h1>
+                </div>
+                <div class="tab-class text-center">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                                <span class="text-dark" style="width: 150px;">Todos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                <span class="text-dark" style="width: 150px;">Sitios Naturales</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                                <span class="text-dark" style="width: 150px;">Obras Patrimoniales</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                                <span class="text-dark" style="width: 150px;">Cultura y Folklore</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+                                <span class="text-dark" style="width: 150px;">Atractivos Científicos</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-6">
+                                <span class="text-dark" style="width: 150px;">Fiestas y Tradiciones</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-1.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Sitios Naturales</h4>
+                                                    <a href="img/event-1.jpg" data-lightbox="event-1" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-2.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Atractivos Científicos</h4>
+                                                    <a href="img/event-2.jpg" data-lightbox="event-2" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-3.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Cultura y Folklore</h4>
+                                                    <a href="img/event-3.jpg" data-lightbox="event-3" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-4.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Atractivos Científicos</h4>
+                                                    <a href="img/event-4.jpg" data-lightbox="event-4" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-5.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Lugares turisticos</h4>
+                                                    <a href="img/event-5.jpg" data-lightbox="event-5" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-6.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Obras Patrimoniales</h4>
+                                                    <a href="img/event-6.jpg" data-lightbox="event-6" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-7.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Fiestas y Tradiciones</h4>
+                                                    <a href="img/event-7.jpg" data-lightbox="event-7" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-8.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Corporate</h4>
+                                                    <a href="img/event-8.jpg" data-lightbox="event-17" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-1.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Rio Pirai</h4>
+                                                    <a href="img/01.jpg" data-lightbox="event-8" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-2.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Espejillos</h4>
+                                                    <a href="img/01.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-3.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Crater</h4>
+                                                    <a href="img/03.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-4.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Rio Cuchi</h4>
+                                                    <a href="img/04.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-5.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Laguna Capiguara</h4>
+                                                    <a href="img/event-5.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-30.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Dunas</h4>
+                                                    <a href="img/event-30.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-6.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">EL Chuto de Porongo</h4>
+                                                    <a href="img/event-6.jpg" data-lightbox="event-8" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-11.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">El Carretón</h4>
+                                                    <a href="img/event-11.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-8.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">La Cruz</h4>
+                                                    <a href="img/event-8.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-7.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">La Noria</h4>
+                                                    <a href="img/event-7.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-13.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Escuela de Música</h4>
+                                                    <a href="img/event-13.jpg" data-lightbox="event-13" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-15.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Danza de los Turcos</h4>
+                                                    <a href="img/event-15.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-16.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Danza</h4>
+                                                    <a href="img/event-16.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-19.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Bioparque Güembé</h4>
+                                                    <a href="img/event-19.jpg" data-lightbox="event-13" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-20.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Puente Foianini</h4>
+                                                    <a href="img/event-20.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-21.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Puente Cristobal Roda Daza</h4>
+                                                    <a href="img/event-21.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-6" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-22.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Fiesta de San Juan Bautista</h4>
+                                                    <a href="img/event-22.jpg" data-lightbox="event-13" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-23.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Semana Santa</h4>
+                                                    <a href="img/event-23.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-24.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Carnaval y Carnavalito</h4>
+                                                    <a href="img/event-24.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-25.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Feria del Achachairú</h4>
+                                                    <a href="img/event-25.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/event-26.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Festival de Tamboritas</h4>
+                                                    <a href="img/event-26.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Events End -->
+
+
+
+        <!-- Reserva tu Visita Start -->
+        <div class="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-1">
+                        <img src="img/background-site.jpg" class="img-fluid h-100 w-100 rounded-start" style="object-fit: cover; opacity: 0.7;" alt="">
+                    </div>
+                    <div class="col-10">
+                        <div class="border-bottom border-top border-primary bg-light py-5 px-4">
+                            <div class="text-center">
+                                <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Reserva tu Visita</small>
+                                <h1 class="display-5 mb-5">Descubre la Belleza de Porongo</h1>
+                            </div>
+                            <div class="row g-4 form">
+                                <div class="col-lg-4 col-md-6">
+                                    <select class="form-select border-primary p-2" aria-label="Default select example">
+                                        <option selected>Seleccionar Departamento</option>
+                                        <option value="1">Santa Cruz</option>
+                                        <option value="2">La Paz</option>
+                                        <option value="3">Cochabamba</option>
+                                        <option value="4">Oruro</option>
+                                        <option value="5">Potosí</option>
+                                        <option value="6">Tarija</option>
+                                        <option value="7">Chuquisaca</option>
+                                        <option value="8">Beni</option>
+                                        <option value="9">Pando</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <select class="form-select border-primary p-2" aria-label="Default select example">
+                                        <option selected>Seleccionar Ciudad</option>
+                                        <option value="1">Santa Cruz de la Sierra</option>
+                                        <option value="2">La Paz</option>
+                                        <option value="3">Cochabamba</option>
+                                        <option value="4">Sucre</option>
+                                        <option value="5">Tarija</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <select class="form-select border-primary p-2" aria-label="Default select example">
+                                        <option selected>Punto de Encuentro</option>
+                                        <option value="1">Centro de Porongo</option>
+                                        <option value="2">Terminal Santa Cruz</option>
+                                        <option value="3">Recojo en Hotel</option>
+                                        <option value="4">Aeropuerto Viru Viru</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <select class="form-select border-primary p-2" aria-label="Default select example">
+                                        <option selected>Tipo de Tour</option>
+                                        <option value="1">Medio Día</option>
+                                        <option value="2">Día Completo</option>
+                                        <option value="3">Fin de Semana</option>
+                                        <option value="4">Tour Personalizado</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <select class="form-select border-primary p-2" aria-label="Default select example">
+                                        <option selected>No. De Personas</option>
+                                        <option value="1">1-2 personas</option>
+                                        <option value="2">3-5 personas</option>
+                                        <option value="3">6-10 personas</option>
+                                        <option value="4">11-20 personas</option>
+                                        <option value="5">21-30 personas</option>
+                                        <option value="6">Más de 30</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <select class="form-select border-primary p-2" aria-label="Default select example">
+                                        <option selected>Preferencia Alimentaria</option>
+                                        <option value="1">Comida Típica Boliviana</option>
+                                        <option value="2">Vegetariano</option>
+                                        <option value="3">Sin Restricciones</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="mobile" class="form-control border-primary p-2" placeholder="Tu Número de Celular">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="date" class="form-control border-primary p-2" placeholder="Seleccionar Fecha">
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <input type="email" class="form-control border-primary p-2" placeholder="Ingresa tu Email">
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary px-5 py-3 rounded-pill">Informanos de tu visita</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <img src="img/background-site.jpg" class="img-fluid h-100 w-100 rounded-end" style="object-fit: cover; opacity: 0.7;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Reserva tu Visita End -->
+
+        
+       
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Testimonios</small>
+                    <h1 class="display-5 mb-5">Testimonios de quienes vivieron la experiencia!</h1>
+                </div>
+                <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">María Fernanda López</h4>
+                                <p class="m-0">Bióloga</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Visitar Espejillos fue una experiencia mágica. La biodiversidad y la energía del lugar me conectaron profundamente con la naturaleza.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Andrés Quiroga</h4>
+                                <p class="m-0">Fotógrafo</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Las dunas del Urubó al atardecer son un espectáculo imperdible. Volvería mil veces solo por esas vistas.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Claudia Romero</h4>
+                                <p class="m-0">Chef</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Disfruté cada momento en la Feria del Achachairú. La comida típica es una explosión de sabores y tradición.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Sergio Méndez</h4>
+                                <p class="m-0">Profesor</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">La Parroquia San Juan Bautista es una joya patrimonial. Me encantó aprender sobre su historia y significado cultural.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel testimonial-carousel testimonial-carousel-2 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Luciana Vargas</h4>
+                                <p class="m-0">Diseñadora gráfica</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Porongo es un lugar lleno de alma. La música, la gente y los paisajes me inspiraron a crear como nunca antes.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Marcelo Rojas</h4>
+                                <p class="m-0">Ingeniero Ambiental</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Me sorprendió la tranquilidad del río El Cuchi. Es perfecto para desconectarse y respirar aire puro.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Sofía Aguilera</h4>
+                                <p class="m-0">Estilista</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">La danza de los turcos me emocionó. Es una expresión cultural que transmite fuerza, historia y tradición.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Diego Cáceres</h4>
+                                <p class="m-0">Desarrollador Web</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Porongo es mucho más de lo que imaginaba. Sus caminos, su gente y su arte te hacen sentir parte del lugar desde el primer día  .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+
+       <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h1 class="text-primary">Porongo<span class="text-dark">Tours</span></h1>
+                            <p class="lh-lg mb-4">Descubre la magia de Porongo, un destino único en Bolivia donde la naturaleza y la cultura se encuentran para ofrecerte experiencias inolvidables.</p>
+                            <div class="footer-icon d-flex">
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Experiencias Especiales</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Tours Ecológicos</a>
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Senderismo</a>
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Fotografía Natural</a>
+                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Cultura Local</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Contáctanos</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Porongo, Santa Cruz, Bolivia</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+591)76057609</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> info@porongotours.com</p>
+                                <p><i class="fa fa-clock text-primary me-2"></i> Atención 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Galería de Porongo</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                     <img src="img/porongo-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/porongo-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/porongo-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/porongo-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/porongo-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/porongo-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var videoModal = document.getElementById('videoModal');
+    var videoIframe = document.getElementById('video');
+
+    videoModal.addEventListener('show.bs.modal', function (event) {
+      var button = event.relatedTarget;
+      var videoSrc = button.getAttribute('data-src');
+      videoIframe.src = videoSrc + "&autoplay=1";
+    });
+
+    videoModal.addEventListener('hidden.bs.modal', function () {
+      videoIframe.src = ""; // Detiene el video al cerrar
+    });
+  });
+</script>
